@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=PT+Sans&family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Change the background color and shape of the scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width to make it thin as desired */
+    background: #f1f1f1; /* Change the background color to gray */
+    border-radius: 20px; /* Set the border radius to create an oblong shape */
+  }
+  
+  /* Change the color of the thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #053B50; /* Change the color to #053B50 */
+    border-radius: 20px; /* Match the border radius for the thumb */
+  }
+  
+  /* Optionally, you can style the track as well */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Change the color of the track as desired */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* Make the scrollbar thin */
+    scrollbar-color: #053B50 #f1f1f1; /* Set the thumb and track colors */
+  }
+  
+  /* For Internet Explorer and Edge */
+  body {
+    scrollbar-base-color: #053B50; /* Set the color for IE and Edge */
+  }
+  
